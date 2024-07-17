@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="874154c84763c210f9101ce4316d43ff" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="encode_utf8=false" label="Requested For" mandatory="true" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="When Needed" mandatory="true" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+    </element>
+</database>
